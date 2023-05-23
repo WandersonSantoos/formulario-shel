@@ -25,28 +25,22 @@
             </div>
 
             <!--Linha 1-->
-            <label for="Nome:">Seu nome:</label>
-            <input type="text" name="Seu nome" id="Seu none" required />
+            <div class="linha1">
+                <label for="Nome:">Seu nome:</label>
+                <input type="text" name="Seu nome" id="Seu none" required />
+            </div>
+
             <!--Linha 1-->
 
             <!--Linha 2-->
             <div class="campotexto">
                 <div class="cont-telefone">
                     <label class="label-telefone" for="Telefone:">Telefone:</label>
+                    <input type="tel" name="Telefone" id="Telefone" required>
                 </div>
             
                 <div class="cont-local">
                     <label class="local" for="Local:">Local:</label>
-                </div>
-            </div>
-
-            <div class="campo">
-
-                <div class="wrapper">
-                    <input type="tel" name="Telefone" id="Telefone" required>
-                </div>
-
-                <div class="wrapper">
                     <input type="text" name="Local" id="Local" required>
                 </div>
             </div>
@@ -54,23 +48,13 @@
 
             <!--Linha 3-->
             <div class="campotexto">
-                <div class="cont-tipo2">
-                    <label class="label-tipo" for="Tipo de camisa/calça:">Tipo de camisa/calça:</label>
-                </div>
-            
-                <div class="cont-bordado2">
-                    <label class="bordado" for="Bordado">Bordado ou serigrafia?</label>
-                </div>
-
-            </div>
-            
-            <div class="campo">
-
-                <div class="wrapper">
+                <div class="cont-tipo">
+                    <label class="label-tipo" for="Tipo de camisa/calça:">Tipo de produto:</label>
                     <input type="text" name="Tipo de camisa/calça" id="Tipo de camisa/calça" required>
                 </div>
-
-                <div class="wrapper">
+            
+                <div class="cont-bordado">
+                    <label class="bordado" for="Bordado">Tem Bordado ou serigrafia?</label>
                     <input type="text" name="Bordado" id="Bordado?" required>
                 </div>
 
@@ -81,48 +65,39 @@
                 <label>Quantidades:</label>
             </div>
 
-            <div class="campotexto">
-                <div class="">
-                    <label class="" for="P">P:</label>
-                </div>
-            
-                <div class="cont-quantidade-pp">
-                    <label class="" for="PP:">PP:</label>
-                </div>
+            <div class="linha4">
+                <div class="secao1">
+                    <div class="cont-quantP">
+                        <label class="" for="P">P:</label>
+                        <input type="number" name="P" id="P:" required>
+                    </div>
+                
+                    <div class="cont-quant">
+                        <label class="" for="PP:">PP:</label>
+                        <input type="number" name="PP" id="PP:" required>
+                    </div>
 
-                <div class="cont-quantidade-m">
-                    <label class="" for="M:">M:</label>
+                    <div class="cont-quant">
+                        <label class="" for="M:">M:</label>
+                        <input type="number" name="M" id="M:" required>
+                    </div>
                 </div>
+                
+                <div class="secao2">
+                    <div class="cont-quantG">
+                        <label class="" for="G:">G:</label>
+                        <input type="number" name="G" id="G:" required>
+                    </div>
 
-                <div class="cont-quantidade-g">
-                    <label class="" for="G:">G:</label>
-                </div>
+                    <div class="cont-quant">
+                        <label class="" for="GG:">GG:</label>
+                        <input type="number" name="GG" id="GG:" required>
+                    </div>
 
-                <div class="cont-quantidade-gg">
-                    <label class="" for="GG:">GG:</label>
-                </div>
-
-            </div>
-
-            <div class="campo">
-                <div class="wrapper">
-                    <input type="number" name="P" id="P:" required>
-                </div>
-
-                <div class="wrapper">
-                    <input type="number" name="PP" id="PP:" required>
-                </div>
-
-                <div class="wrapper">
-                    <input type="number" name="M" id="M:" required>
-                </div>
-
-                <div class="wrapper">
-                    <input type="number" name="G" id="G:" required>
-                </div>
-
-                <div class="wrapper">
-                    <input type="number" name="GG" id="GG:" required>
+                    <div class="cont-quant">
+                        <label class="" for="GG:">XGG:</label>
+                        <input type="number" name="XGG" id="XGG:" required>
+                    </div>
                 </div>
             </div>
 
@@ -143,25 +118,14 @@
                 </div>
 
                 <div class="campotexto">
-
-                    <div class="cont-tipo2">
-                        <label class="label-tipo" for="Tipo de camisa/calça:">Tipo de camisa/calça:</label>
+                    <div class="cont-tipo">
+                        <label class="label-tipo" for="Tipo de camisa/calça:">Tipo de produto:</label>
+                        <input type="text" name="Tipo de camisa/calça" id="Tipo de camisa/calça" required>
                     </div>
                 
-                    <div class="cont-bordado2">
-                        <label class="bordado" for="2-Bordado">Bordado ou serigrafia?</label>
-                    </div>
-    
-                </div>
-                
-                <div class="campo">
-    
-                    <div class="wrapper">
-                        <input type="text" name="2-Tipo de camisa/calça" id="Tipo de camisa/calça" required>
-                    </div>
-    
-                    <div class="wrapper">
-                        <input type="text" name="2-Bordado" id="Bordado?" required>
+                    <div class="cont-bordado">
+                        <label class="bordado" for="Bordado">Tem Bordado ou serigrafia?</label>
+                        <input type="text" name="Bordado" id="Bordado?" required>
                     </div>
     
                 </div>
@@ -171,53 +135,47 @@
                     <label>Quantidades:</label>
                 </div>
     
-                <div class="campotexto">
-                    <div class="">
-                        <label class="" for="2-P">P:</label>
+                <div class="linha4">
+                    <div class="secao1">
+                        <div class="cont-quantP">
+                            <label class="" for="P">P:</label>
+                            <input type="number" name="P" id="P:" required>
+                        </div>
+                    
+                        <div class="cont-quant">
+                            <label class="" for="PP:">PP:</label>
+                            <input type="number" name="PP" id="PP:" required>
+                        </div>
+    
+                        <div class="cont-quant">
+                            <label class="" for="M:">M:</label>
+                            <input type="number" name="M" id="M:" required>
+                        </div>
                     </div>
+                    
+                    <div class="secao2">
+                        <div class="cont-quantG">
+                            <label class="" for="G:">G:</label>
+                            <input type="number" name="G" id="G:" required>
+                        </div>
+    
+                        <div class="cont-quant">
+                            <label class="" for="GG:">GG:</label>
+                            <input type="number" name="GG" id="GG:" required>
+                        </div>
+    
+                        <div class="cont-quant">
+                            <label class="" for="GG:">XGG:</label>
+                            <input type="number" name="XGG" id="XGG:" required>
+                        </div>
+                    </div>
+                </div>
+    
+                <!--Linha 5-->
+    
+                <label for="Detalhamento">Quer detalhar o produto?</label>
+                <textarea name="Detalhamento" id="Detalhamento" required></textarea>
                 
-                    <div class="cont-quantidade-pp">
-                        <label class="" for="2-PP:">PP:</label>
-                    </div>
-    
-                    <div class="cont-quantidade-m">
-                        <label class="" for="2-M:">M:</label>
-                    </div>
-    
-                    <div class="cont-quantidade-g">
-                        <label class="" for="2-G:">G:</label>
-                    </div>
-    
-                    <div class="cont-quantidade-gg">
-                        <label class="" for="2-GG:">GG:</label>
-                    </div>
-    
-                </div>
-    
-                <div class="campo">
-                    <div class="wrapper">
-                        <input type="number" name="2-P" id="P:" required>
-                    </div>
-    
-                    <div class="wrapper">
-                        <input type="number" name="2-PP" id="PP:" required>
-                    </div>
-    
-                    <div class="wrapper">
-                        <input type="number" name="2-M" id="M:" required>
-                    </div>
-    
-                    <div class="wrapper">
-                        <input type="number" name="2-G" id="G:" required>
-                    </div>
-    
-                    <div class="wrapper">
-                        <input type="number" name="2-GG" id="GG:" required>
-                    </div>
-                </div>
-
-                <label for="2-Detalhamento">Quer detalhar o produto?</label>
-                <textarea name="2-Detalhamento" id="Detalhamento" required></textarea>
             </div>
 
             <div class="adicionar">
