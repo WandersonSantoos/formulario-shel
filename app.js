@@ -168,7 +168,7 @@ class FormSubmit {
   const formSubmit = new FormSubmit({
     form: "[data-form]",
     button: "[data-button]",
-    success: "<h1 class='success'>Encomenda enviada!</h1>",
+    success: "<div class='sucesso'> <h1 class='success'>Encomenda enviada!</h1> <a class='back' href='http://127.0.0.1:5500/index.html'>Voltar</a> </div>",
     error: "<h1 class='error'>Não foi possível enviar sua mensagem.</h1>",
   });
   formSubmit.init();

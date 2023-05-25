@@ -216,12 +216,24 @@
     text-align: center;
  }
 
+ .sucesso {
+  text-align: center;
+ }
+
  .success {
     color: #F6A50E;
+    margin-bottom: 20px;
+ }
+
+ .back {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+  text-decoration: none;
  }
 
  .error {
-    color: tomato;
+  color: tomato;
  }
 
  /* Para telas pequenas */
